@@ -102,7 +102,7 @@ const SimpleModal = ({ action, sendUserCredentials, performAction }) => {
 
       <Modal open={open} onClose={() => setOpen(false)}>
         <div style={modalStyle} className={`${classes.paper} modal__body`}>
-          <img src={logo} alt="Instagram" />
+          <img src={logo} alt="Logo" />
           {body}
           <Button
             className="modal__actionbutton"

@@ -67,7 +67,7 @@ function App() {
     <div className="app">
       <div className="app-header">
         <div className="app-navbar">
-          <img src={logo} alt="Instagram Logo" />
+          <img src={logo} alt="Logo" />
           <div className="app-useractions">
             {user ? (
               <>
@@ -90,7 +90,7 @@ function App() {
                   }
                 />
                 <Modal
-                  action="Log In"
+                  action="Sign In"
                   performAction={signIn}
                   sendUserCredentials={(credentials) =>
                     setUserCredentials({ ...credentials })
