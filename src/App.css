@@ -1,0 +1,22 @@
+.app{
+  background-color: #fafafa;
+}
+.app-navbar {
+  padding: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.app-header {
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+.app-header img {
+  object-fit: contain;
+}
+
+.app-useractions {
+  display: flex;
+}
